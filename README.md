@@ -1,4 +1,4 @@
-# Chatbot Project
+# Chatbot 
 
 This project implements a modular and scalable chatbot using Flask and the Ollama LLM model. The chatbot is designed to be easily extendable, with separate components for handling different data sources and generating responses.
 
