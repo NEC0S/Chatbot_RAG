@@ -102,3 +102,32 @@ To integrate the new model into the chatbot, follow these steps:
 Here's an example image related to the project:
 
 ![image](https://github.com/user-attachments/assets/f4b7aefa-ff76-40d7-bf65-1171413f3e49)
+
+## Issues with the Model
+
+### 1. Very Slow Performance
+
+#### Problem
+The model might be running slowly due to several factors:
+- **Large Size of Documents**: Processing large documents or a large number of documents can lead to slow response times.
+- **Complexity of the Model**: Large language models (LLMs) with significant computational requirements may have inherently slow inference times.
+- **Open Source Model**: Using Open-source model can also affect performance, also Limited hardware resources, such as insufficient RAM or GPU power can be potential reasons.
+
+
+### 2. Responses Too Specific to Documents
+
+#### Problem
+The model may generate responses that are overly specific to the given document rather than providing general or diverse responses.
+
+
+### Solutions
+
+- **Chunk Documents**: Break down large documents into smaller chunks or sections to reduce the load on the model.
+
+- **Scale Resources**: Consider using distributed computing or cloud services to handle larger workloads.
+
+- **Optimize Model Usage**:
+  - **Use Faster Models**: Evaluate if a lighter or faster model could meet your needs without compromising much on quality.
+  - **Reduce Model Size**: If feasible, use a smaller version of the model to improve performance.
+
+
