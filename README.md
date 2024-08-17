@@ -10,8 +10,7 @@ chatbot_project/
 ├── app.py
 ├── chatbot/
 │   ├── __init__.py
-│   ├── chatbot.py
-│   ├── conversation_manager.py
+│   ├── chatbot.py 
 │   └── responses/
 │       ├── __init__.py
 │       ├── base_response.py
@@ -22,6 +21,8 @@ chatbot_project/
 │   ├── base_handler.py
 │   ├── pdf_handler.py
 │   ├── url_handler.py
+│   ├── data_dump.py
+│   ├── data_source_manager.py
 │   └── text_handler.py
 │
 ├── templates/
@@ -30,7 +31,9 @@ chatbot_project/
 ├── static/
 │   └── css/
 │       └── styles.css
-│
+├── user_data/
+│   └── data.csv
+│       
 ├── requirements.txt
 └── README.md
 ```
@@ -40,7 +43,6 @@ chatbot_project/
 
 - **`chatbot/`**: Contains the core logic for the chatbot.
   - **`chatbot.py`**: Manages the chatbot's state and processes user input.
-  - **`conversation_manager.py`**: Handles the flow of the conversation, including user satisfaction state.
   - **`responses/`**: Contains different response generators.
     - **`base_response.py`**: A base class for all response generators.
     - **`ollama_response.py`**: Implements the response generation logic using the Ollama LLM model.
