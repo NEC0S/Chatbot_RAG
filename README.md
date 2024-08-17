@@ -4,6 +4,7 @@ This project implements a modular and scalable chatbot using Flask and the Ollam
 
 ## File Structure
 
+```plaintext
 chatbot_project/
 │
 ├── app.py
@@ -32,7 +33,7 @@ chatbot_project/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ## Directory and File Descriptions
 
 - **`app.py`**: The main entry point for the Flask application. It sets up the routes and initializes the chatbot.
