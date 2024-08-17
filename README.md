@@ -33,7 +33,7 @@ chatbot_project/
 │
 ├── requirements.txt
 └── README.md
-
+plaintext```
 
 ## Directory and File Descriptions
 
