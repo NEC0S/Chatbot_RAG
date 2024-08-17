@@ -4,7 +4,6 @@ This project implements a modular and scalable chatbot using Flask and the Ollam
 
 ## File Structure
 
-```plaintext
 chatbot_project/
 │
 ├── app.py
@@ -33,7 +32,6 @@ chatbot_project/
 │
 ├── requirements.txt
 └── README.md
-plaintext```
 
 ## Directory and File Descriptions
 
